@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wpf_Temp_vocht")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e530a2bc6d10f078acf716d77ca7be0da82aad9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d9731e4f0ad42e4192735bb401e61986d3fe2cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wpf_Temp_vocht")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wpf_Temp_vocht")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
