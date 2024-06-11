@@ -238,11 +238,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht - probeer balk op temp beweeg\\Wpf_Temp_vocht.csproj",
+      "projectUniqueName": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht\\Wpf_Temp_vocht.csproj",
       "projectName": "Wpf_Temp_vocht",
-      "projectPath": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht - probeer balk op temp beweeg\\Wpf_Temp_vocht.csproj",
+      "projectPath": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht\\Wpf_Temp_vocht.csproj",
       "packagesPath": "C:\\Users\\nolfm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht - probeer balk op temp beweeg\\obj\\",
+      "outputPath": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nolfm\\AppData\\Roaming\\NuGet\\NuGet.Config",

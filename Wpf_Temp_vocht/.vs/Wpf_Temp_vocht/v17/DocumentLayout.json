@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht - probeer balk op temp beweeg\\",
+  "WorkspaceRootPath": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5721ABE-B653-4815-947A-B822C730191A}|Wpf_Temp_vocht.csproj|c:\\users\\nolfm\\desktop\\ao project\\wpf_temp_vocht - probeer balk op temp beweeg\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5721ABE-B653-4815-947A-B822C730191A}|Wpf_Temp_vocht.csproj|c:\\users\\nolfm\\desktop\\ao project\\wpf_temp_vocht\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B5721ABE-B653-4815-947A-B822C730191A}|Wpf_Temp_vocht.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5721ABE-B653-4815-947A-B822C730191A}|Wpf_Temp_vocht.csproj|c:\\users\\nolfm\\desktop\\ao project\\wpf_temp_vocht\\rectangleadjuster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5721ABE-B653-4815-947A-B822C730191A}|Wpf_Temp_vocht.csproj|solutionrelative:rectangleadjuster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5721ABE-B653-4815-947A-B822C730191A}|Wpf_Temp_vocht.csproj|c:\\users\\nolfm\\desktop\\ao project\\wpf_temp_vocht\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5721ABE-B653-4815-947A-B822C730191A}|Wpf_Temp_vocht.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5721ABE-B653-4815-947A-B822C730191A}|Wpf_Temp_vocht.csproj|c:\\users\\nolfm\\desktop\\ao project\\wpf_temp_vocht - probeer balk op temp beweeg\\serialcommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5721ABE-B653-4815-947A-B822C730191A}|Wpf_Temp_vocht.csproj|c:\\users\\nolfm\\desktop\\ao project\\wpf_temp_vocht\\serialcommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5721ABE-B653-4815-947A-B822C730191A}|Wpf_Temp_vocht.csproj|solutionrelative:serialcommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5721ABE-B653-4815-947A-B822C730191A}|Wpf_Temp_vocht.csproj|c:\\users\\nolfm\\desktop\\ao project\\wpf_temp_vocht - probeer balk op temp beweeg\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B5721ABE-B653-4815-947A-B822C730191A}|Wpf_Temp_vocht.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,15 +26,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht - probeer balk op temp beweeg\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht - probeer balk op temp beweeg\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-22T11:57:26.897Z",
@@ -39,29 +43,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "RectangleAdjuster.cs",
+              "DocumentMoniker": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht\\RectangleAdjuster.cs",
+              "RelativeDocumentMoniker": "RectangleAdjuster.cs",
+              "ToolTip": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht\\RectangleAdjuster.cs",
+              "RelativeToolTip": "RectangleAdjuster.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T09:45:36.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht - probeer balk op temp beweeg\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht - probeer balk op temp beweeg\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAA3wF0AAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T11:57:20.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SerialCommunication.cs",
-              "DocumentMoniker": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht - probeer balk op temp beweeg\\SerialCommunication.cs",
+              "DocumentMoniker": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht\\SerialCommunication.cs",
               "RelativeDocumentMoniker": "SerialCommunication.cs",
-              "ToolTip": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht - probeer balk op temp beweeg\\SerialCommunication.cs",
+              "ToolTip": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht\\SerialCommunication.cs",
               "RelativeToolTip": "SerialCommunication.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T10:24:29.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T10:24:29.535Z"
             }
           ]
         }

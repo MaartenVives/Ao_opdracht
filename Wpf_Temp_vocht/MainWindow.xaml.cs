@@ -7,11 +7,13 @@ namespace Wpf_Temp_vocht
     public partial class MainWindow : Window
     {
         private SerialCommunication? serialCommunication;
+        private RectangleAdjuster rectangleAdjuster;
 
         public MainWindow()
         {
             InitializeComponent();
             InitializeSerialPort();
+            rectangleAdjuster = new RectangleAdjuster();
         }
 
         private void InitializeSerialPort()
@@ -87,6 +89,10 @@ namespace Wpf_Temp_vocht
                     if (parts.Length == 2)
                     {
                         temperatureTextBox.Text = parts[1].Trim() + " °C";
+                        if (double.TryParse(parts[1].Trim(), out double temperature))
+                        {
+                            rectangleAdjuster.AdjustRectangleHeight(temperature, temperatureRectangle);
+                        }
                     }
                 }
                 else if (line.StartsWith("Vochtigheid:"))
@@ -95,11 +101,13 @@ namespace Wpf_Temp_vocht
                     if (parts.Length == 2)
                     {
                         humidityTextBox.Text = parts[1].Trim() + " %";
+                        if (double.TryParse(parts[1].Trim(), out double humidity))
+                        {
+                            rectangleAdjuster.AdjustRectangleHeighthum(humidity, humRectangle);
+                        }
                     }
                 }
             }
         }
-
-       
     }
 }

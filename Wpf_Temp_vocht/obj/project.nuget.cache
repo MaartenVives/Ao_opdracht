@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "btBn9M8r0W7FUQv+vNdpR6YiHLno/rldZuQiHC1if5CkNk0KnulWxuhXFmik6zCTTEGOFFcZ98MIYPYCtwy/Fg==",
+  "dgSpecHash": "hOywqwZya04lhwI95efjlTH2tTqJWimBWS00TCuV1kDvygPFYuC60bKxGgqfWi0ArnuSWZXxpknQYNUL/KR1SA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht - probeer balk op temp beweeg\\Wpf_Temp_vocht.csproj",
+  "projectFilePath": "C:\\Users\\nolfm\\Desktop\\Ao project\\Wpf_Temp_vocht\\Wpf_Temp_vocht.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nolfm\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\8.0.0\\runtime.linux-arm.runtime.native.system.io.ports.8.0.0.nupkg.sha512",
     "C:\\Users\\nolfm\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\8.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.8.0.0.nupkg.sha512",

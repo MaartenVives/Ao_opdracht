@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="430">
+        Title="MainWindow" Height="500" Width="430" ResizeMode="NoResize">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -18,6 +18,43 @@
         <Button x:Name="disconnectButton" Content="Disconnect" Click="DisconnectButton_Click" Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,70,0" IsEnabled="False"/>
         <TextBox x:Name="temperatureTextBox" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" IsReadOnly="True" Margin="10,55,0,0"/>
         <TextBox x:Name="humidityTextBox" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Top" Width="150" IsReadOnly="True" Margin="0,55,10,0"/>
+        <Canvas Name="Thermocanvas" Focusable="True">
+            <!--2D visualization of a thermometer.-->
+            <Grid Name="Thermometer" Canvas.Top="102" Canvas.Left="31" Height="360" Width="112" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <Rectangle Name="GlassTube" HorizontalAlignment="Left" VerticalAlignment="Top" Stroke="Black" Width="24" Height="292" StrokeThickness="1" Margin="38,23,0,0" />
+                <Ellipse Name="Bulb" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Fill="Red" Stroke="Black" StrokeThickness="1" Margin="25,310,0,0" />
+
+                <!--Points.-->
+                <Label Content="+45" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Height="25" Width="35" Margin="66,10,0,0" />
+                <Label Content="+40" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Height="25" Width="35" Margin="66,35,0,0" />
+                <Label Content="+35" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Height="25" Width="35" Margin="66,60,0,0" />
+                <Label Content="+30" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Height="25" Width="35" Margin="66,85,0,0" />
+                <Label Content="+25" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Height="25" Width="35" Margin="66,110,0,0" />
+                <Label Content="+20" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Height="25" Width="35" Margin="66,135,0,0" />
+                <Label Content="+15" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Height="25" Width="35" Margin="66,160,0,0" />
+                <Label Content="+10" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Height="25" Width="35" Margin="66,185,0,0" />
+                <Label Content="+5" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Height="25" Width="35" Margin="66,210,0,0" />
+                <Label Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Height="25" Width="35" Margin="66,235,0,0" />
+                <Label Content="-5" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Height="25" Width="35" Margin="66,260,0,0" />
+                <Label Content="-10" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Height="25" Width="35" Margin="66,285,0,0" />
+            </Grid>
+
+            <!--Temperature and Humidity Labels-->
+            <Label Content="TEMPERATURE:" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Height="30" Canvas.Left="42" Canvas.Top="49"/>
+            <Label Content="HUMIDITY:" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Black" Height="30" Canvas.Left="309" Canvas.Top="46"/>
+        </Canvas>
         
+        <Rectangle Name="temperatureRectangle" HorizontalAlignment="Left" VerticalAlignment="Top" Width="22" Fill="Red" Height="290" Grid.Row="2" Margin="70,31,0,0"></Rectangle>
+        
+        <Border BorderBrush="Black" BorderThickness="2" Width="100" Height="163" VerticalAlignment="Top" HorizontalAlignment="Left"  Margin="274,95,0,0" Grid.Row="2">
+            <Rectangle Name="humRectangle" HorizontalAlignment="Center" VerticalAlignment="Top" Width="100" Fill="LightBlue" Height="155" Grid.Row="2" Margin="0,4,0,0" />
+        </Border>
+        <Label Content="100%" HorizontalAlignment="Left" Margin="372,89,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+        <Label Content="75%" HorizontalAlignment="Left" Margin="375,126,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+        <Label Content="50%" HorizontalAlignment="Left" Margin="375,164,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+        <Label Content="25%" HorizontalAlignment="Left" Margin="375,202,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+        <Label Content="0%" HorizontalAlignment="Left" Margin="377,240,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+        
+        <Rectangle HorizontalAlignment="Left" Height="14" Margin="276,84,0,0" Grid.Row="2" Fill="White" VerticalAlignment="Top" Width="96"/>
     </Grid>
 </Window>
